@@ -13,7 +13,7 @@ it's pretty clear that we'll be using the admin to get something done.
 
 
 ### Source code analysis, all 800 lines :(
-The source code shows us a pretty secure system. The sql is done with prepared statements and there doesn't appear to be any trickery any of the functions.
+The source code shows us a pretty secure system. The sql is done with prepared statements and there doesn't appear to be any trickery allowed with any of the functions.
 We can see that the database is seeded with an admin user that has an id of 0. We can see that there are several API endpoints that will be useful. 
 By visting `/api/userInfo?id=0`, we can see the admins username and password. Unfortunately we can't login as the admin because there is a restrictive IP whitelist for 
 the admin to log in. Oh well. There is an interesting function called **gift** that allows the admin user to gift 150 credits to a user. The catch is that 
