@@ -3,8 +3,7 @@
 At first look at the site, we see login and register tabs. Once you create an account and login, we are greeted with our goal and our challenge.
 
 ### Our Goal
-There is a recipe for sale for 1000 credits. We are given 100 credits to start with no visibile way of getting more. We somehow need to either steal the
-recipe without paying or find a way to give ourselves enough credit.
+There is a recipe with a description "This challenge's flag" for sale for 1000 credits. We are given 100 credits to start with no visibile way of getting more. We somehow need to either steal the recipe without paying or find a way to give ourselves enough credit.
 
 
 ### Our Challenge
